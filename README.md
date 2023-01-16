@@ -18,6 +18,3 @@ Demo of microservices ecosystem, making use of Netflix OSS and some microservice
 
 * **Product-Service:** storage of products in MongoDB as database.
 
-#### Requests
-* Some sample requests for each service is available in Postman Collection file.
-
