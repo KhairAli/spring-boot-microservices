@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: 'product-service'
+  data:
+    mongodb:
+      uri: mongodb+srv://spartan:n7E0Gra7yiTPnHF9@cluster0.o1qhy.mongodb.net/test
+
+server:
+  port: 8084
+    
+# Registering application in Eureka Server  
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8081/eureka
+
+
+

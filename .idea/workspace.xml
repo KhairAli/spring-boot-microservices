@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b1e79db-1d88-4ffc-bcb8-833dfdc4720b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/spring-boot-microservices.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/assignment/evamp/product/config/FilterConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/assignment/evamp/product/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/assignment/evamp/user/client/ProductClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/assignment/evamp/user/client/dto/PurchaseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/assignment/evamp/user/client/response/ProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/assignment/evamp/user/config/FilterConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/assignment/evamp/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/assignment/evamp/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Postman Collection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/br/com/springboot/demo/gateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/assignment/evamp/gateway/ApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/test/java/br/com/springboot/demo/gateway/ApiGatewayApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/br/com/springboot/demo/auth/server/AuthServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/br/com/springboot/demo/auth/server/config/AppProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/br/com/springboot/demo/auth/server/config/AuthorizationServerConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/br/com/springboot/demo/auth/server/config/ModelMapperConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/br/com/springboot/demo/auth/server/config/ResourceServerConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/br/com/springboot/demo/auth/server/config/WebSecurityConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/br/com/springboot/demo/auth/server/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/br/com/springboot/demo/auth/server/controller/ClientController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/br/com/springboot/demo/auth/server/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/br/com/springboot/demo/auth/server/controller/dto/ClientRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/br/com/springboot/demo/auth/server/controller/dto/UserRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/br/com/springboot/demo/auth/server/controller/errors/ErrorDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/br/com/springboot/demo/auth/server/controller/errors/RestExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/br/com/springboot/demo/auth/server/domain/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/br/com/springboot/demo/auth/server/domain/Profile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/br/com/springboot/demo/auth/server/domain/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/br/com/springboot/demo/auth/server/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/br/com/springboot/demo/auth/server/mapper/ClientMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/br/com/springboot/demo/auth/server/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/br/com/springboot/demo/auth/server/repository/ClientRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/br/com/springboot/demo/auth/server/repository/UserRepositiry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/br/com/springboot/demo/auth/server/service/ClientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/br/com/springboot/demo/auth/server/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/br/com/springboot/demo/auth/server/service/detail/ClientDetailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/java/br/com/springboot/demo/auth/server/service/detail/UserDetailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-server/src/test/java/br/com/springboot/demo/auth/server/AuthServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-s3-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-s3-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-s3-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-s3-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-s3-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-s3-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-s3-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-s3-service/src/main/java/br/com/springboot/demo/s3/service/AwsS3ServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/assignment/evamp/user/UserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-s3-service/src/main/java/br/com/springboot/demo/s3/service/config/ResourceServerConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-s3-service/src/main/java/br/com/springboot/demo/s3/service/config/SdkS3Configuration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-s3-service/src/main/java/br/com/springboot/demo/s3/service/config/SwaggerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/assignment/evamp/user/config/SwaggerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-s3-service/src/main/java/br/com/springboot/demo/s3/service/controller/FileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-s3-service/src/main/java/br/com/springboot/demo/s3/service/controller/dto/FileRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-s3-service/src/main/java/br/com/springboot/demo/s3/service/controller/dto/FileResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-s3-service/src/main/java/br/com/springboot/demo/s3/service/controller/dto/Views.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-s3-service/src/main/java/br/com/springboot/demo/s3/service/controller/errors/ErrorDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-s3-service/src/main/java/br/com/springboot/demo/s3/service/controller/errors/RestExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-s3-service/src/main/java/br/com/springboot/demo/s3/service/property/ApplicationProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-s3-service/src/main/java/br/com/springboot/demo/s3/service/service/AwsS3Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-s3-service/src/main/java/br/com/springboot/demo/s3/service/service/FileService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-s3-service/src/main/java/br/com/springboot/demo/s3/service/service/exception/AwsS3Exception.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-s3-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws-s3-service/src/test/java/br/com/springboot/demo/s3/service/AwsS3ServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/br/com/springboot/demo/product/service/ProductServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/assignment/evamp/product/ProductServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/br/com/springboot/demo/product/service/client/FileClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/br/com/springboot/demo/product/service/client/request/FileRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/br/com/springboot/demo/product/service/client/response/FileResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/br/com/springboot/demo/product/service/config/ApplicationProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/br/com/springboot/demo/product/service/config/ModelMapperConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/br/com/springboot/demo/product/service/config/ResourceServerConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/br/com/springboot/demo/product/service/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/assignment/evamp/product/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/br/com/springboot/demo/product/service/controller/dto/ProductImageDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/br/com/springboot/demo/product/service/controller/dto/ProductRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/br/com/springboot/demo/product/service/controller/dto/Views.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/br/com/springboot/demo/product/service/controller/errors/ErrorDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/br/com/springboot/demo/product/service/controller/errors/RestExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/br/com/springboot/demo/product/service/controller/mapper/ProductMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/br/com/springboot/demo/product/service/domain/ImageStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/br/com/springboot/demo/product/service/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/assignment/evamp/product/domain/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/br/com/springboot/demo/product/service/domain/ProductImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/br/com/springboot/demo/product/service/interceptor/FeignClientRequestInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/br/com/springboot/demo/product/service/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/assignment/evamp/product/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/br/com/springboot/demo/product/service/service/FileServiceFallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/br/com/springboot/demo/product/service/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/br/com/springboot/demo/product/service/utils/FileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/br/com/springboot/demo/product/service/utils/ObjectUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/br/com/springboot/demo/product/service/validation/ProductValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/test/java/br/com/springboot/demo/product/service/ProductServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/test/java/com/assignment/evamp/product/ProductServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-discovery/src/main/java/br/com/springboot/demo/service/discovery/ServiceDiscoveryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-discovery/src/main/java/com/assignment/evamp/discovery/ServiceDiscoveryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-discovery/src/test/java/br/com/springboot/demo/service/discovery/ServiceDiscoveryApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-discovery/src/test/java/com/assignment/evamp/discovery/ServiceDiscoveryApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2KNC8KDZvpOEJp8jxo4rrR9DW8C" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.assignment.evamp.product.config" />
+      <recent name="com.assignment.evamp.user.client.response" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.UserServiceApplication">
+    <configuration name="ProductServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.assignment.evamp.product.ProductServiceApplication" />
+      <module name="product.service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.assignment.evamp.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.assignment.evamp.user.UserServiceApplication" />
+      <module name="user.service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.assignment.evamp.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="user.service [spring-boot:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/user-service" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UserServiceApplication" />
+        <item itemvalue="Application.ProductServiceApplication" />
+        <item itemvalue="Maven.user.service [spring-boot:run]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b1e79db-1d88-4ffc-bcb8-833dfdc4720b" name="Changes" comment="" />
+      <created>1673805492734</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673805492734</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
